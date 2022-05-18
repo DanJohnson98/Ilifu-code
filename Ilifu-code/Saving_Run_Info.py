@@ -7,9 +7,9 @@ def save_run_info(obj):
     except Exception as ex:
         print("Error during pickling object (Possibly unsupported):", ex)
 
-obj = {"num_per_run": 10,
-       "n_burn": 500,
-       "n_run": 500,
+obj = {"num_per_run": 5,
+       "n_burn": 100,
+       "n_run": 100,
        "threadCount": 8
        }
 
